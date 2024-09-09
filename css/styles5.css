@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Cambria:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    font-family: 'Cambria';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #FFF0F5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 4%;
+    background: #1f242d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    border-bottom: none;
+}
+
+.logo {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 600;
+    cursor: default;
+}
+
+.logo:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-left: 2rem;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #FFB6C1;
+    text-decoration: none;
+}
+
+#menu-icon {
+    font-size: 2.5rem;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+
+.profile {
+    display: flex;
+    height: 60vh;
+    justify-content: center;
+    padding-top: 15px;
+    background-color: #F8F8FF;
+}
+
+.prof {
+    background-color: #E6E6FA;
+    width: 430px;
+    height: 400px;
+    border-radius: 8px;
+    box-shadow: 2px 0px 23px 7px rgba(25, 23, 23, 0.55);
+    -webkit-box-shadow: 2px 0px 23px 7px rgba(25, 23, 23, 0.55);
+    -moz-box-shadow: 2px 0px 23px 7px rgba(25, 23, 23, 0.55);
+}
+
+.us {
+    font-size: 22px;
+    width: 435px;
+    font-weight: bold;
+}
+
+.mp {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    padding-left: 12px;
+    font-weight: bold;
+}
+
+.input {
+    text-align: justify;
+    width: 235px;
+    border: 1px solid;
+    height: 20px;
+}
+
+.input2 {
+    text-align: justify;
+    width: 235px;
+    border: 1px solid;
+    height: 30px;
+}
+
+.name,
+.em,
+.pas,
+.lev {
+    padding-left: 12px;
+    font-size: 13px;
+    font-weight: bold;
+}
